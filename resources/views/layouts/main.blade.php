@@ -42,7 +42,7 @@
                 </a>
                 <a href="{{ route('produtos') }}" class="list-group-item list-group-item-action">PRODUTOS E SERVIÇOS</a>
                 <a href="{{ route('bonus') }}" class="list-group-item list-group-item-action">BÔNUS</a>
-                <a href="#" class="list-group-item list-group-item-action">PREMIOS</a>
+                <a href="{{ route('premios') }}" class="list-group-item list-group-item-action">PREMIOS</a>
                 <a href="http://app.gmbrasilvd.com.br/" class="list-group-item list-group-item-action">ESCRITÓRIO VIRTUAL</a>
                 <a class="list-group-item list-group-item-action disabled">CONTATO</a>
             </div>
@@ -134,7 +134,7 @@
 
                     <ul class="list-unstyled mb-0">
                         <li>
-                            <a href="#!" class="text-white">Escritório Virtual</a>
+                            <a href="http://app.gmbrasilvd.com.br/" class="text-white">Escritório Virtual</a>
                         </li>
                         <li>
                             <a href="#!" class="text-white">Politicas e Privacidade</a>

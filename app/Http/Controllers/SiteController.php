@@ -20,4 +20,8 @@ class SiteController extends Controller
     {
         return view('pages.bonus');
     }
+    public function premios()
+    {
+        return view('pages.premios');
+    }
 }

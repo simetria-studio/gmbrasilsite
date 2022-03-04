@@ -103,6 +103,7 @@
             <div class="d-flex flex-column align-items-center">
                 <div class="itens-ponto">
                     <img src="{{ asset('assets/img/start.svg') }}" alt="">
+
                 </div>
                 <div class="itens-ponto">
                     <img src="{{ asset('assets/img/prata.svg') }}" alt="">
@@ -135,6 +136,6 @@
         </div>
     </div>
     <div class="btn-call text-center my-4">
-        <button class=" btn-orange">VER PRÊMIOS</button>
+       <a href="{{ route('premios') }}"><button class=" btn-orange">VER PRÊMIOS</button></a>
     </div>
 @endsection

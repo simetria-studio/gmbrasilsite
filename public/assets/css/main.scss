@@ -54,7 +54,6 @@ body {
 }
 .list-group-item {
     border: none;
-
 }
 .banner {
     width: 100%;
@@ -144,12 +143,25 @@ body {
         padding: 0 35px;
     }
 }
-.whatsapp{
+.whatsapp {
     position: fixed;
     bottom: 20px;
     right: 20px;
     width: 50px;
-    img{
+    img {
         width: 100%;
+    }
+}
+.premios {
+    h2 {
+        font-size: 1.4em;
+        color: #fff;
+    }
+}
+.itens-premio {
+    p {
+        color: #fff;
+        padding: 0 25px;
+        text-align: left;
     }
 }
