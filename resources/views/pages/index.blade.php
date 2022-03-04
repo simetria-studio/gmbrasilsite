@@ -90,7 +90,7 @@
         <img src="{{ asset('assets/img/banner3.png') }}" alt="">
     </div>
     <div class="btn-call text-center">
-        <button class=" btn-orange">VER MAIS</button>
+        <a href="{{ route('bonus') }}"><button class=" btn-orange">VER MAIS</button></a>
     </div>
     <div class="title">
         <h2>

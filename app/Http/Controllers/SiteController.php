@@ -15,4 +15,9 @@ class SiteController extends Controller
     {
         return view('pages.produtos');
     }
+
+    public function bonus()
+    {
+        return view('pages.bonus');
+    }
 }
