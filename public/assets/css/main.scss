@@ -20,6 +20,35 @@ body {
         color: #ffffff;
     }
 }
+.menu {
+    height: 100vh;
+    width: 0;
+    background-color: #fff;
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.header-menu {
+    text-align: right;
+    margin-top: 2em;
+
+    button {
+        background-color: transparent;
+        border: none;
+        font-size: 3em;
+        margin-right: 0.5em;
+    }
+}
+.list-group {
+    a {
+        font-size: 1.5em;
+    }
+}
+.list-group-item {
+    border: none;
+}
 .banner {
     width: 100%;
     img {
@@ -80,31 +109,31 @@ body {
 .itens {
     margin: 10px 0;
 }
-.itens-ponto{
+.itens-ponto {
     margin-top: 15px;
 }
 
-.produtos{
+.produtos {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 3em;
 }
 
-.banner-prod{
+.banner-prod {
     width: 200px;
     margin: 2em 0;
-    img{
+    img {
         width: 100%;
     }
 }
-.bonus{
+.bonus {
     color: #fff;
-    h3{
-        font-family: 'Great Vibes', cursive;
+    h3 {
+        font-family: "Great Vibes", cursive;
         text-align: center;
     }
-    p{
+    p {
         padding: 0 35px;
     }
 }
