@@ -179,7 +179,9 @@
 
     </div>
     <!-- Grid container -->
-
+    <div class="whatsapp">
+      <a href="https://api.whatsapp.com/send?phone=5531989157673&text=Vim%20pelo%20site" target="_blank"> <img src="{{ asset('assets/img/icons/whatsapp.png') }}" alt=""></a>
+    </div>
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
         © 2022 Copyright:
