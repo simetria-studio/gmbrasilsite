@@ -74,7 +74,7 @@
 
             <!-- Instagram -->
             <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac"
-                href="https://www.instagram.com/gmbrasil_oficial/" role="button"><i class="fab fa-instagram"></i></a>
+                href="https://www.instagram.com/gmbrasil_oficial/" target="_blank" role="button"><i class="fab fa-instagram"></i></a>
 
             <!-- Linkedin -->
             {{-- <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a> --}}
@@ -160,12 +160,12 @@
                         <li>
                             <a href="#!" class="text-white">gmbrasiloportunidades@gmail.com</a>
                         </li>
-                        <li>
+                        {{-- <li>
                             <a href="#!" class="text-white">Link 3</a>
                         </li>
                         <li>
                             <a href="#!" class="text-white">Link 4</a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
                 <!--Grid column-->
