@@ -59,7 +59,8 @@ body {
     width: 100%;
     img {
         width: 100%;
-        max-width: 100%;
+        object-fit: cover;
+        // max-width: 100%;
     }
 }
 .title {
@@ -165,3 +166,32 @@ body {
         text-align: left;
     }
 }
+
+.nav-link {
+    color: #fff !important;
+}
+.nav-link:hover {
+    color: rgb(233, 218, 10) !important;
+}
+
+.menu-desk {
+    margin-left: 40px;
+}
+
+@media only screen and (min-width: 600px) {
+    .mobile {
+        display: none;
+    }
+    .logo {
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .desktop {
+        display: none;
+    }
+
+}
+
+
+

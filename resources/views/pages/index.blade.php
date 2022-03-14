@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-    <div class="banner">
+    <div class="banner animate__animated animate__slideInRight">
         <img src="{{ asset('assets/img/banner.jpg') }}" alt="">
     </div>
     <div class="title">
@@ -11,8 +11,8 @@
     <div class="btn-call text-center">
        <a href="{{ route('produtos') }}"> <button class=" btn-orange">VER TUDO</button></a>
     </div>
-    <div class="banner2">
-        <img src="{{ asset('assets/img/banner2.png') }}" alt="">
+    <div class="banner2 animate__animated animate__slideInRight">
+        <img src="{{ asset('assets/img/banner2.jpg') }}" alt="">
     </div>
     <div class="title">
         <h2>
@@ -86,8 +86,8 @@
             BÔNUS
         </h2>
     </div>
-    <div class="banner2">
-        <img src="{{ asset('assets/img/banner3.png') }}" alt="">
+    <div class="banner2 animate__animated animate__slideInRight">
+        <img src="{{ asset('assets/img/banner3.jpg') }}" alt="">
     </div>
     <div class="btn-call text-center">
         <a href="{{ route('bonus') }}"><button class=" btn-orange">VER MAIS</button></a>
